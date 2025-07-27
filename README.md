@@ -1,6 +1,6 @@
 # DRA Expanded Music
 
-;This is basically just [True OG Edition](https://github.com/bigger0gamer/TrueOGEdition) but with almost everything cut out, giving you a vanilla classic gameplay experience but with one big change:
+This is basically just [True OG Edition](https://github.com/bigger0gamer/TrueOGEdition) but with almost everything cut out, giving you a vanilla classic gameplay experience but with one big change:
 
 - This version has *both* the Japanese and International soundtracks, in a single ROM!
   - No matter the mode, all music will be picked mostly randomly, with the exception of never hearing the theme for one stage on another.
