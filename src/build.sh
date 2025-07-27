@@ -9,4 +9,4 @@ quickbms -w -r digimon_vfs2.bms "Digimon Rumble Arena (USA)/A.VFS" "Digimon Rumb
 psxbuild -c "Digimon Rumble Arena (USA).cat" DRAExpandedMusic.bin
 
 # open output in emulator
-mednafen TrueOG.cue
+mednafen DRAExpandedMusic.cue

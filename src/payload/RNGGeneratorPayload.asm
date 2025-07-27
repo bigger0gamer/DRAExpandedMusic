@@ -8,7 +8,7 @@ RNG:
   addi ra,ra,0x1    ; MusicRNG++
   slti v0,ra,16+6   ; if(MusicRNG !< 0x10)
   bne v0,r0,@@Return
-  nop
+  lui v0,hi(MusicRNGVar)
   addi ra,ra,-10-6    ; then(MusicRNG -= 10)
   
   @@Return:
