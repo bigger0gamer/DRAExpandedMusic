@@ -1,0 +1,18 @@
+Add your custom music here! Anything ffmpeg accepts should work, such as
+.mp3
+.wav
+.flac
+.opus
+
+You can even add .xa, but keep a backup, since the packxap.sh script will move and delete it.
+
+Once you have added your music, you can build by:
+
+cd into build env:
+
+sh extract.sh
+
+then cd into src
+
+sh packxap.sh
+sh build.sh

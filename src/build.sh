@@ -1,12 +1,14 @@
+NUMBER_SONGS=$(cat NumberSongs.txt)
+
 # armips
-armips DRAExpandedMusic.asm
+armips -equ NUMBER_SONGS $NUMBER_SONGS DRAExpandedMusic.asm
 
 # repack A.VFS
 cd ../build\ env
-quickbms -w -r digimon_vfs2.bms "Digimon Rumble Arena (USA)/A.VFS" "Digimon Rumble Arena (USA)/inject"
+quickbms -Q -w -r digimon_vfs2.bms "Digimon Rumble Arena (USA)/A.VFS" "Digimon Rumble Arena (USA)/inject"
 
 # psxbuild
-psxbuild -c "Digimon Rumble Arena (USA).cat" DRAExpandedMusic.bin
+mkpsxiso -y -q -o DRAExpandedMusic.bin -c DRAExpandedMusic.cue "Digimon Rumble Arena (USA).xml"
 
 # open output in emulator
 mednafen DRAExpandedMusic.cue

@@ -12,6 +12,7 @@
 .openfile "../build env/Digimon Rumble Arena (USA)/SLUS_014.04.bak","../build env/Digimon Rumble Arena (USA)/SLUS_014.04",0x8000F800
 
   ; Custom Variable Labels
+  NumberSongs equ NUMBER_SONGS
   .org 0x801FC8FC :: MusicRNGVar:
   
   
