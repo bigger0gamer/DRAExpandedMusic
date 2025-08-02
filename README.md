@@ -12,7 +12,7 @@ This is basically just [True OG Edition](https://github.com/bigger0gamer/TrueOGE
 
 ## How To Play
 
-In the [releases tab](), you can find a couple premade patches. If you want to build a version with your own custom music, check below.
+In the [releases tab](https://github.com/bigger0gamer/DRAExpandedMusic/releases/latest), you can find a couple premade patches. If you want to build a version with your own custom music, check below.
 
 ## Building (Add Custom Music)
 
