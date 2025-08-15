@@ -12,13 +12,25 @@
 .openfile "../build env/Digimon Rumble Arena (USA)/SLUS_014.04.bak","../build env/Digimon Rumble Arena (USA)/SLUS_014.04",0x8000F800
 
   ; Custom Variable Labels
-  NumberSongs equ NUMBER_SONGS
-  .org 0x801FC8FC :: MusicRNGVar:
+   ; Constants
+   NumberSongs equ NUMBER_SONGS
+   .org 0x80037010 :: RNGFunc:
+   .org 0x8005EE48 :: RNGPointer:
+   
+   ; 1 byte vars
+   .org 0x801FC8F0 :: Color1PVar:
+   .org 0x801FC8F1 :: Color2PVar:
+   
+   ; 4 byte vars
+   .org 0x801FC900 :: CharacterRNGHistory:
+   .org 0x801FC904 :: StageRNGHistory:
+   .org 0x801FC908 :: MusicRNGHistory:
   
   
   ; First, we need to start with any data that needs to be modified in SLUS_014.04 itself
   .include "exe/EverythingUnlockedExe.asm"
   .include "exe/RandomMusicExe.asm"
+  .include "exe/AltColorExe.asm"
   
   
   ; As most of the game's code can't be resized,
@@ -65,6 +77,6 @@
 
   .include "title/EverythingUnlockedTitle.asm"
   .include "title/MiscQoLTitle.asm"
-  .include "title/RNGGeneratorTitle.asm"
+  .include "title/CharacterSelectCommandsTitle.asm"
 
 .close
