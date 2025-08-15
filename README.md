@@ -3,12 +3,17 @@
 This is basically just [True OG Edition](https://github.com/bigger0gamer/TrueOGEdition) but with almost everything cut out, giving you a vanilla classic gameplay experience but with one big change:
 
 - This version has *both* the Japanese and International soundtracks, in a single ROM!
-  - No matter the mode, all music will be picked mostly randomly, with the exception of never hearing the theme for one stage on another.
+  - Japanese & Extra music will only be heard in 2P VS and VS CPU
+  - Music in 2P VS and VS CPU will be picked randomly
 - And a small selection of Quality of Life features from True OG Edtion
-  - Everything Unlocked, no save file required!
-  - Allow Mirror Matches (Without Holding Select)
-  - Bottom Row Evos In Arcade Mode
-  - Remove 5 Round Limit
+  - Everything unlocked, no save file required!
+  - Press start for random character
+  - Press start for random stage
+  - Hold R1 or select for alternate digimon color
+  - Press triangle to leave stage select / arcade mode Digimon preview
+  - Allow mirror matches (without holding select)
+  - Bottom row evos In arcade mode
+  - Remove 5 round limit
 
 ## How To Play
 
